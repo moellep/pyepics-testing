@@ -1,0 +1,212 @@
+Scenario B (fixed): 400 rounds (max 150.0s), 25 buffers x 20 signals (expected monitored_count to stay at 0), 1.0s between rounds -> /home/vagrant/src/moellep/pyepics-testing/docs/camonitor-cliff/results_B.csv
+[diagnostic] CAGET_TEST:SIG0:HST0: chid before disconnect() = c_long(784449264), chid after disconnect() = c_long(784449264) (non-None/non-zero here means the channel is still clearable via epics.ca.clear_channel())
+[    0.0s] cached=   0 monitored=   0 active=   0 channels=   0 fds=   8 implied=   0.00 MB/s client_rss=  38.72MB server_rss=113.3 latency_p50=30.25
+[    1.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  40.37MB server_rss=113.38 latency_p50=
+[    2.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  40.58MB server_rss=113.38 latency_p50=
+-- round 0 done (buffer 0) --
+[    3.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  40.63MB server_rss=113.39 latency_p50=
+[    4.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  40.80MB server_rss=113.41 latency_p50=
+[    5.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.01MB server_rss=113.42 latency_p50=30.51
+-- round 1 done (buffer 1) --
+[    7.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.10MB server_rss=113.43 latency_p50=
+[    8.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.22MB server_rss=113.43 latency_p50=
+[    9.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.44MB server_rss=113.45 latency_p50=
+-- round 2 done (buffer 2) --
+[   10.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.58MB server_rss=113.45 latency_p50=
+[   11.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.64MB server_rss=113.46 latency_p50=29.58
+[   12.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  41.86MB server_rss=113.46 latency_p50=
+[   13.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.05MB server_rss=113.48 latency_p50=
+-- round 3 done (buffer 3) --
+[   14.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.08MB server_rss=113.48 latency_p50=
+[   15.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.26MB server_rss=113.48 latency_p50=
+[   16.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.45MB server_rss=113.5 latency_p50=30.74
+-- round 4 done (buffer 4) --
+[   17.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.55MB server_rss=113.5 latency_p50=
+[   18.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.67MB server_rss=113.52 latency_p50=
+[   19.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  42.84MB server_rss=113.52 latency_p50=
+-- round 5 done (buffer 5) --
+[   20.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.03MB server_rss=113.52 latency_p50=
+[   21.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.03MB server_rss=113.52 latency_p50=31.6
+[   23.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.24MB server_rss=113.54 latency_p50=
+[   24.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.43MB server_rss=113.54 latency_p50=
+-- round 6 done (buffer 6) --
+[   25.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.50MB server_rss=113.55 latency_p50=
+[   26.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.62MB server_rss=113.55 latency_p50=
+[   27.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.82MB server_rss=113.56 latency_p50=29.97
+-- round 7 done (buffer 7) --
+[   28.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  43.98MB server_rss=113.57 latency_p50=
+[   29.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.00MB server_rss=113.57 latency_p50=
+[   30.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.23MB server_rss=113.58 latency_p50=
+[   31.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.42MB server_rss=113.6 latency_p50=
+-- round 8 done (buffer 8) --
+[   32.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.46MB server_rss=113.6 latency_p50=31.7
+[   33.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.65MB server_rss=113.61 latency_p50=
+[   34.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.84MB server_rss=113.62 latency_p50=
+-- round 9 done (buffer 9) --
+[   35.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  44.93MB server_rss=113.62 latency_p50=
+[   36.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.03MB server_rss=113.62 latency_p50=
+[   37.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.23MB server_rss=113.64 latency_p50=31.66
+-- round 10 done (buffer 10) --
+[   39.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.41MB server_rss=113.65 latency_p50=
+[   40.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.44MB server_rss=113.65 latency_p50=
+[   41.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.63MB server_rss=113.66 latency_p50=
+[   42.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.82MB server_rss=113.67 latency_p50=
+-- round 11 done (buffer 11) --
+[   43.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  45.89MB server_rss=113.67 latency_p50=30.58
+[   44.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.05MB server_rss=113.68 latency_p50=
+[   45.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.26MB server_rss=113.7 latency_p50=
+-- round 12 done (buffer 12) --
+[   46.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.36MB server_rss=113.7 latency_p50=
+[   47.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.46MB server_rss=113.7 latency_p50=
+[   48.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.65MB server_rss=113.71 latency_p50=31.52
+-- round 13 done (buffer 13) --
+[   49.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.84MB server_rss=113.73 latency_p50=
+[   50.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  46.89MB server_rss=113.73 latency_p50=
+[   51.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.10MB server_rss=113.73 latency_p50=
+-- round 14 done (buffer 14) --
+[   52.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.30MB server_rss=113.74 latency_p50=
+[   53.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.30MB server_rss=113.74 latency_p50=26.97
+[   55.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.55MB server_rss=113.75 latency_p50=
+[   56.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.76MB server_rss=113.76 latency_p50=
+-- round 15 done (buffer 15) --
+[   57.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.79MB server_rss=113.76 latency_p50=
+[   58.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  47.98MB server_rss=113.78 latency_p50=
+[   59.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.19MB server_rss=113.78 latency_p50=26.95
+-- round 16 done (buffer 16) --
+[   60.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.26MB server_rss=113.79 latency_p50=
+[   61.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.45MB server_rss=113.83 latency_p50=
+[   62.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.68MB server_rss=113.84 latency_p50=
+-- round 17 done (buffer 17) --
+[   63.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.77MB server_rss=113.85 latency_p50=
+[   64.5s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  48.89MB server_rss=113.85 latency_p50=28.38
+[   65.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.13MB server_rss=113.86 latency_p50=
+-- round 18 done (buffer 18) --
+[   66.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.24MB server_rss=113.87 latency_p50=
+[   67.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.34MB server_rss=113.88 latency_p50=
+[   68.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.55MB server_rss=113.89 latency_p50=
+-- round 19 done (buffer 19) --
+[   69.8s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.71MB server_rss=113.89 latency_p50=27.25
+[   71.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  49.84MB server_rss=113.9 latency_p50=
+[   72.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.05MB server_rss=113.91 latency_p50=
+-- round 20 done (buffer 20) --
+[   73.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.20MB server_rss=113.91 latency_p50=
+[   74.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.26MB server_rss=113.92 latency_p50=
+[   75.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.48MB server_rss=113.93 latency_p50=27.21
+-- round 21 done (buffer 21) --
+[   76.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.67MB server_rss=113.94 latency_p50=
+[   77.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.72MB server_rss=113.94 latency_p50=
+[   78.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  50.93MB server_rss=113.95 latency_p50=
+-- round 22 done (buffer 22) --
+[   79.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.14MB server_rss=113.95 latency_p50=
+[   80.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.14MB server_rss=113.96 latency_p50=28.19
+[   81.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.39MB server_rss=113.96 latency_p50=
+[   82.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.60MB server_rss=113.98 latency_p50=
+-- round 23 done (buffer 23) --
+[   83.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.62MB server_rss=113.98 latency_p50=
+[   84.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  51.80MB server_rss=114.0 latency_p50=
+[   85.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.02MB server_rss=114.0 latency_p50=26.63
+-- round 24 done (buffer 24) --
+[   87.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.09MB server_rss=114.0 latency_p50=
+-- round 25 done (buffer 0) --
+[   88.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.11MB server_rss=114.01 latency_p50=
+[   89.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.11MB server_rss=114.01 latency_p50=
+-- round 26 done (buffer 1) --
+[   90.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.12MB server_rss=114.01 latency_p50=
+-- round 27 done (buffer 2) --
+[   91.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.12MB server_rss=114.01 latency_p50=28.06
+[   92.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.12MB server_rss=114.01 latency_p50=
+-- round 28 done (buffer 3) --
+[   93.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.12MB server_rss=114.01 latency_p50=
+-- round 29 done (buffer 4) --
+[   94.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.12MB server_rss=114.01 latency_p50=
+[   95.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.13MB server_rss=114.01 latency_p50=
+-- round 30 done (buffer 5) --
+[   96.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.13MB server_rss=114.01 latency_p50=28.5
+-- round 31 done (buffer 6) --
+[   97.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.14MB server_rss=114.01 latency_p50=
+[   98.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.14MB server_rss=114.01 latency_p50=
+-- round 32 done (buffer 7) --
+[   99.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.14MB server_rss=114.01 latency_p50=
+-- round 33 done (buffer 8) --
+[  100.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.14MB server_rss=114.01 latency_p50=
+[  101.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.14MB server_rss=114.01 latency_p50=31.18
+-- round 34 done (buffer 9) --
+[  103.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.15MB server_rss=114.01 latency_p50=
+[  104.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.15MB server_rss=114.01 latency_p50=
+-- round 35 done (buffer 10) --
+[  105.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.15MB server_rss=114.01 latency_p50=
+-- round 36 done (buffer 11) --
+[  106.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.15MB server_rss=114.01 latency_p50=
+[  107.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=27.32
+-- round 37 done (buffer 12) --
+[  108.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 38 done (buffer 13) --
+[  109.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  110.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 39 done (buffer 14) --
+[  111.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  112.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=28.38
+-- round 40 done (buffer 15) --
+[  113.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 41 done (buffer 16) --
+[  114.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  115.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 42 done (buffer 17) --
+[  116.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 43 done (buffer 18) --
+[  117.7s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=27.15
+[  119.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 44 done (buffer 19) --
+[  120.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 45 done (buffer 20) --
+[  121.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  122.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 46 done (buffer 21) --
+[  123.0s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=27.37
+-- round 47 done (buffer 22) --
+[  124.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  125.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 48 done (buffer 23) --
+[  126.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 49 done (buffer 24) --
+[  127.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  128.3s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=27.73
+-- round 50 done (buffer 0) --
+[  129.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 51 done (buffer 1) --
+[  130.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  131.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+-- round 52 done (buffer 2) --
+[  132.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=
+[  133.6s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.16MB server_rss=114.01 latency_p50=28.89
+-- round 53 done (buffer 3) --
+[  134.9s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 54 done (buffer 4) --
+[  135.9s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+[  136.9s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 55 done (buffer 5) --
+[  137.9s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 56 done (buffer 6) --
+[  138.9s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=27.53
+[  140.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 57 done (buffer 7) --
+[  141.1s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 58 done (buffer 8) --
+[  142.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+[  143.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 59 done (buffer 9) --
+[  144.2s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=28.34
+-- round 60 done (buffer 10) --
+[  145.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+[  146.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 61 done (buffer 11) --
+[  147.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+-- round 62 done (buffer 12) --
+[  148.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=
+[  149.4s] cached=   0 monitored=   0 active=   0 channels=   1 fds=  11 implied=   0.00 MB/s client_rss=  52.17MB server_rss=114.01 latency_p50=27.19
+-- round 63 done (buffer 13) --
+-- max_seconds (150.0) reached, stopping early --
+Finished. Expected monitored_count and implied_bytes_per_sec to have stayed at 0 throughout -- see /home/vagrant/src/moellep/pyepics-testing/docs/camonitor-cliff/results_B.csv.
+[diagnostic] main-thread epics.ca._cache: 500 channel entries remain for 500 distinct PVs touched, despite calling pv.disconnect() after every read
+[diagnostic] clearing one via epics.ca.clear_channel(): CAGET_TEST:SIG0:HST0, chid=c_long(784449264)
+[diagnostic] after clear_channel(): 499 entries remain (was 500) -- confirms the channel was real and clearable

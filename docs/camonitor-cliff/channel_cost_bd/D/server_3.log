@@ -1,0 +1,2 @@
+Starting mock IOC (pid=918256, port=5067): 500 waveform PVs (25 buffers x 20 signals, buffers [75, 100)), 2800 elements each, 13 Hz
+High load. Batched 3 commands (67296B) with 0.0309s latency.

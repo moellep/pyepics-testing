@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+results_*.csv
+
+# docs/ holds committed reference run output (see each test's
+# run_comparison.py --out-dir default) -- exempt it from the ignores above.
+!docs/**
+
+# ...except Jupyter's own scratch checkpoints, never worth committing even
+# under docs/ -- must come after the docs/ negation above to win.
+docs/**/.ipynb_checkpoints/
