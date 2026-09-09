@@ -1,3 +1,5 @@
-Starting mock IOC (pid=918208, port=5064): 500 waveform PVs (25 buffers x 20 signals, buffers [0, 25)), 2800 elements each, 13 Hz, plus CAGET_TEST:CANARY
-High load. Batched 3 commands (67296B) with 0.0309s latency.
-High load. Batched 3 commands (67296B) with 0.0473s latency.
+Starting mock IOC (pid=970692, port=5064): 500 waveform PVs (25 buffers x 20 signals, buffers [0, 25)), 2800 elements each, 13 Hz, plus CAGET_TEST:CANARY
+High load. Batched 3 commands (67296B) with 0.0324s latency.
+High load. Batched 3 commands (67296B) with 0.0421s latency.
+High load. Batched 3 commands (67296B) with 0.0359s latency.
+High load. Batched 3 commands (67296B) with 0.0457s latency.
