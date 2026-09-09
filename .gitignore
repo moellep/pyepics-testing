@@ -3,6 +3,11 @@ __pycache__/
 *.log
 results_*.csv
 
+# pip install -e . build artifacts (pyepics_watcher/pyproject.toml)
+*.egg-info/
+build/
+dist/
+
 # docs/ holds committed reference run output (see each test's
 # run_comparison.py --out-dir default) -- exempt it from the ignores above.
 !docs/**

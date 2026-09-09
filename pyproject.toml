@@ -1,0 +1,36 @@
+[build-system]
+requires = ["chronver", "setuptools>=66"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    { name = "Paul Moeller", email = "moeller@radiasoft.net" },
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "pyepics",
+]
+description = "General-purpose introspection for a running pyepics process"
+dynamic = ["version"]
+name = "pyepics_watcher"
+readme = "pyepics_watcher/README.md"
+
+[project.optional-dependencies]
+demo = ["caproto", "numpy"]
+
+[project.scripts]
+pyepics-watcher-demo = "pyepics_watcher.run_demo:main"
+pyepics-watcher-server = "pyepics_watcher.ioc_server:main"
+
+[project.urls]
+Homepage = "https://github.com/moellep/pyepics-testing"
+
+[tool.setuptools.packages.find]
+include = ["pyepics_watcher*"]
